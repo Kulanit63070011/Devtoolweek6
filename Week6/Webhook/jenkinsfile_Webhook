@@ -13,6 +13,7 @@ pipeline {
                 echo 'build in progress'
                 sh 'python3  Week6/Webhook/main.py'
                 sh 'python3  Week6/Webhook/main2.py'
+                sh 'python3  Week6/Webhook/main3.py'
             }
         }
     }
